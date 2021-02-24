@@ -255,7 +255,7 @@ install_hook() {
         targets=('yolov3.cfg' 'coco.names' 'yolov3.weights')
         sources=('https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg'
                 'https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names'
-                'https://pjreddie.com/media/files/yolov3.weights')
+                'https://bnck.me/yolov3.weights')
 
         [ -f "${TARGET_DATA}/models/yolov3/yolov3_classes.txt" ] && rm "${TARGET_DATA}/models/yolov3/yolov3_classes.txt"
         
@@ -282,7 +282,7 @@ install_hook() {
         targets=('yolov3-tiny.cfg' 'coco.names' 'yolov3-tiny.weights')
         sources=('https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3-tiny.cfg'
                 'https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names'
-                'https://pjreddie.com/media/files/yolov3-tiny.weights')
+                'https://bnck.me/yolov3-tiny.weights')
 
         [ -f "${TARGET_DATA}/models/tinyyolov3/yolov3-tiny.txt" ] && rm "${TARGET_DATA}/models/yolov3/yolov3-tiny.txt"
 
